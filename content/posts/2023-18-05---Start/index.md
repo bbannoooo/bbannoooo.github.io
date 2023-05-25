@@ -3,14 +3,15 @@ title: Test
 date: "2023-05-18"
 template: "post"
 draft: false
-slug: "/posts/test"
+slug: "/posts/start"
 category: "test"
 tags:
   - "test"
-#   - "Typography"
+  # - "테스트"
+  - "Typography"
 #   - "Web Development"
 description: "Test."
 # socialImage: "./media/42-line-bible.jpg"
 ---
 
-TEST
+# TEST

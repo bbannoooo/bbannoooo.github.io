@@ -11,6 +11,7 @@ type Props = {
   author: {
     name: string;
     bio: string;
+    nickname: string;
     photo: string;
   };
   isIndex?: boolean;
@@ -38,7 +39,8 @@ const Author = ({ author, isIndex }: Props) => (
       )}
       <ThemeSwitcher />
     </div>
-    <p className={styles.subtitle}>{author.bio}</p>
+    <p className={styles.nameContent}>{author.bio}</p>
+    <p className={styles.nameContent}>{author.nickname}</p>
   </div>
 );
 

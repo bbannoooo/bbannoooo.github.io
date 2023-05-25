@@ -10,16 +10,17 @@ const Author = () => {
 
   return (
     <div className={styles.author}>
-      <p className={styles.bio}>
-        {author.bio}
-        {/* <a
+      <p className={styles.nameContent}>
+        {/* {author.bio}
+        <span>&nbsp;&nbsp;</span> */}
+        <a
           className={styles.twitter}
-          href={getContactHref("twitter", author.contacts.twitter)}
+          href={getContactHref("github", author.contacts.github)}
           rel="noopener noreferrer"
           target="_blank"
         >
-          <strong>{author.name}</strong> on Twitter
-        </a> */}
+          <span>@</span><strong>{author.name}</strong> on Github
+        </a>
       </p>
     </div>
   );

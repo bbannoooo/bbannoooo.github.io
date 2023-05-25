@@ -11,7 +11,8 @@
   height: $button-height;
   line-height: $button-height;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 5px;
+  margin-bottom: 5px;
   text-align: center;
   text-decoration: none;
   @include padding(0, 1);

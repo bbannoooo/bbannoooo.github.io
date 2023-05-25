@@ -9,7 +9,7 @@
   "pathPrefix": "/",
   "menu": [
     {
-      "label": "Articles",
+      "label": "All Articles",
       "path": "/"
     },
     {
@@ -24,7 +24,8 @@
   "author": {
     "name": "bbannoooo",
     "photo": "/photo.jpg",
-    "bio": "bbannoooo === b4no",
+    "bio": "@bbannoooo",
+    "nickname": "@b4no",
     "contacts": {
       "rss": "",
       "email": "",
